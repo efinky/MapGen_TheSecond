@@ -1,0 +1,13 @@
+MapGenerator:
+
+    executable file:
+
+	mainwindow.rb
+
+- this creates two files map_#####.tbm (tea's bitmap - a file that simply containing the elevations in number format) 
+and the map_#####.bmp which obviously is a bitmap.  The ##### is the seed number of the map.
+
+- if you wish to change the size of the map go into mainwindow.rb and edit $MapRows.
+
+- the .tbm file can be copied over to Exploration and renamed to map.tbm and Exploration will load that map using tiles that I have borrowed from
+Crossfire RPG (an open source game) and this will allow you to explore the map as though it was in a game.
